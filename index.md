@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+[Common Parts we use at the STEM Alliance](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21710&parId=2D88298C4282E29A!21709&app=Excel)
 
-You can use the [editor on GitHub](https://github.com/STEM-Alliance/STEM-Alliance.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[Shared Resources folder](https://1drv.ms/f/s!AprigkKMKYgtgalNQPmc59XpZ3NQuQ)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Mechanical
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Websites
+   - [Chief Delphi](http://www.chiefdelphi.com/) - Web forum for FRC
+   - [FRC Nation](http://www.frcnation.com/) - FRC link aggregator
+   - [FRC Survival Guide from 4468](http://fernbanklinks.com/wp-content/uploads/2017/07/FRCSurvivalGuide.pdf) - HUGE list of links/resources
 
-```markdown
-Syntax highlighted code block
+- Motors
+   - [JVN's Motor Design Calculator](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21712&parId=2D88298C4282E29A!21709&app=Excel) - Also on [CD](https://www.chiefdelphi.com/media/papers/3188?langid=2)
+   - [Vex Motor Testing Results](http://motors.vex.com/) - Motor power/stall information & graphs
 
-# Header 1
-## Header 2
-### Header 3
+- Gearing & Forces
+   - [Spartan's Design Presentation](https://youtu.be/VNfFn-gcfFI?t=479)
+   - [WCP Gearing Information](http://www.wcproducts.net/how-to-gears/)
+   - [WCP Belts Information](http://www.wcproducts.net/how-to-belts/)
 
-- Bulleted
-- List
+ - Drivetrains
+   - [WCP Drivetrain Information](http://www.wcproducts.net/how-to-drivetrain/)
+   - [Intro to Swerve](https://docs.google.com/presentation/d/1wWh1g9xM9V4DxjItj85Wz9oY2O4tN1AmQPimYl7-920/mobilepresent?slide=id.g38a8194d37_0_163) - Swerve presentation from Detroit 2018
 
-1. Numbered
-2. List
+- Useful Threads
+   - [WCD Tank Designs](https://www.chiefdelphi.com/forums/showthread.php?threadid=165383)
+   - [Wheel choices](https://www.chiefdelphi.com/forums/showthread.php?threadid=165372) - Colsons vs Traction wheels
+   - [Best Intake Designs](https://www.chiefdelphi.com/forums/showthread.php?threadid=165075)
 
-**Bold** and _Italic_ and `Code` text
+## Programming
 
-[Link](url) and ![Image](src)
-```
+- [Talon SRX/Phoenix Documentation](https://github.com/CrossTheRoadElec/Phoenix-Documentation)
+   - [Software Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Victor%20SPX%20-%20Software%20Reference%20Manual.pdf)
+   - [Motion Profile Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
+   - [Java Code Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Business
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/STEM-Alliance/STEM-Alliance.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Fundraising
+   - [FRC Grants/Crowdfunding](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/grants-and-crowdfunding.pdf) - Info from FIRST
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Branding
+   - [254 Brand Guide](https://www.team254.com/resources/identity/)
