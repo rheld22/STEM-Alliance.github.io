@@ -1,4 +1,20 @@
 theme: jekyll-theme-minimal
+
 repository: STEM-Alliance/STEM-Alliance.github.io
+title: STEM Alliance of Fargo/Moorhead
 description: Resources & Links
-logo: https://github.com/STEM-Alliance/STEM-Alliance.github.io/blob/master/logo.png?raw=true
+
+logo: /logo.png
+google_analytics: UA-119060805-1
+
+team1: 4360 Spudnik Robotics
+team1url: http://www.moorheadrobotics.org/
+#team1img: https://pbs.twimg.com/profile_images/378800000335312356/205517fa4f0d6d1210708c68b045d65a_400x400.png
+
+team2: 4818 The Herd, West Fargo Robotics
+team2url: http://www.wfrobotics.org/
+#team2img: https://pbs.twimg.com/profile_images/697913219600416768/7ZLQRxeR_400x400.png
+
+team3: 7048 Red River Rage
+team3url: http://www.redriverrage.com
+#team3img: https://pbs.twimg.com/profile_images/966335882428125187/Gq-jngLz_400x400.jpg

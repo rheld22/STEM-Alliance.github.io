@@ -19,12 +19,47 @@
         {% endif %}
 
         <p align="center">{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.team1 %}
+        <p class="view" >
+          <a href="{{site.team1url | absolute_url}}">
+            {% if site.team1img %}
+            <img src="{{site.team1img | relative_url}}" alt="{{site.team1}} Logo" style="max-height:150px;"/><br>
+            {% endif %}
+            {{site.team1}}
+          </a>
+        </p>
+        {% endif %}
+
+        {% if site.team2 %}
+        <p class="view" >
+          <a href="{{site.team2url | absolute_url}}">
+            {% if site.team2img %}
+            <img src="{{site.team2img | relative_url}}" alt="{{site.team2}} Logo" style="max-height:150px;"/><br>
+            {% endif %}
+            {{site.team2}}
+          </a>
+        </p>
+        {% endif %}
+          
+        {% if site.team3 %}
+        <p class="view" >
+          <a href="{{site.team3url | absolute_url}}">
+            {% if site.team3img %}
+            <img src="{{site.team3img | relative_url}}" alt="{{site.team3}} Logo" style="max-height:150px;"/><br>
+            {% endif %}
+            {{site.team3}}
+          </a>
+        </p>
+        {% endif %}
+
       </header>
       <section>
 
       {{ content }}
 
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
