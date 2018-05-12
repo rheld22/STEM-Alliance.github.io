@@ -1,15 +1,20 @@
-## STEM Alliance Links
+# Teams
+- FRC 4360, [Spudnik Robotics](http://www.moorheadrobotics.org/)
+- FRC 4818, [The Herd, WF Robotics](http://www.wfrobotics.org/)
+- FRC 7048, [Red River Rage](http://www.redriverrage.com)
+
+# STEM Alliance Links
 - [Shared Documents OneDrive Folder](https://1drv.ms/f/s!AprigkKMKYgtgalNQPmc59XpZ3NQuQ)
 - [Common Parts we use at the STEM Alliance](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21710&parId=2D88298C4282E29A!21709&app=Excel)
 
-## Websites
+# Websites
 - [FRC Game Manual](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
 - [Chief Delphi](http://www.chiefdelphi.com/) - Web forum for FRC
 - [FRC Nation](http://www.frcnation.com/) - FRC link aggregator
 - [FRC Survival Guide from 4468](http://fernbanklinks.com/wp-content/uploads/2017/07/FRCSurvivalGuide.pdf) - HUGE list of links/resources
 - [The Blue Alliance](https://thebluealliance.com/)
 
-## Mechanical
+# Mechanical
 
 - PTC Creo
    - [Creo Download for FRC](https://www.ptc.com/en/academic-program/k-12-program/students/first)
@@ -36,7 +41,7 @@
    - [Wheel choices](https://www.chiefdelphi.com/forums/showthread.php?threadid=165372) - Colsons vs Traction wheels
    - [Best Intake Designs](https://www.chiefdelphi.com/forums/showthread.php?threadid=165075)
 
-## Programming
+# Programming
 
 - Code Repositories
    - Public Repos
@@ -65,7 +70,7 @@
    - [1678 Citrus Circuits](https://github.com/frc1678)
    - [2767 Strykeforce](https://github.com/strykeforce)
 
-## Business
+# Business
 
 - Fundraising
    - [FRC Grants/Crowdfunding](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/grants-and-crowdfunding.pdf) - Info from FIRST
