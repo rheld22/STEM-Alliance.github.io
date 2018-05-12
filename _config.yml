@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 
 repository: STEM-Alliance/STEM-Alliance.github.io
 title: STEM Alliance of Fargo/Moorhead
-description: Resources & Links
+#description: Resources & Links
 
 logo: /logo_gear_s.png
 google_analytics: UA-119060805-1
