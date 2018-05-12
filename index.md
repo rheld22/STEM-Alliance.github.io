@@ -11,8 +11,12 @@
 
 ## Mechanical
 
+- PTC Creo
+   - [Creo Download for FRC](https://www.ptc.com/en/academic-program/k-12-program/students/first)
+   - [Windchill](https://academic.ptc.com/Windchill/app/#ptc1/project/listFiles?ContainerOid=OR%3Awt.projmgmt.admin.Project2%3A42667007&folderNavigatorParameter=true&oid=OR%3Awt.folder.Cabinet%3A42667042&u8=1)
+
 - Motors
-   - [JVN's Motor Design Calculator](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21712&parId=2D88298C4282E29A!21709&app=Excel) - Also on [CD](https://www.chiefdelphi.com/media/papers/3188?langid=2)
+   - [JVN's Motor Design Calculator](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21712&parId=2D88298C4282E29A!21709&app=Excel) - Also on [CD](https://www.chiefdelphi.com/media/papers/3188?langid=2) - Motor speed/power excel calculator
    - [Vex Motor Testing Results](http://motors.vex.com/) - Motor power/stall information & graphs
 
 - Gearing & Forces
@@ -34,7 +38,18 @@
 
 ## Programming
 
-- [ScreenStepsLive](https://wpilib.screenstepslive.com/s/4485)
+- Code Repositories
+   - Public Repos
+      - [WF Robotics, 4818 The Herd](https://github.com/WFRobotics) - All shared public repos for WF Robotics
+      - [The ShepHerd](https://bitbucket.org/westfargorobotics/theherdscouting) - Scouting app developed by WF Robotics
+   - Development Repos
+      - [Shared Reuse Library](https://bitbucket.org/westfargorobotics/robotreuse) - Shared library between teams we reusable code from year to year
+      - [Auto Pilot](https://bitbucket.org/westfargorobotics/autopilot) - Path Planning application (in development)
+      - [Target Tracker](https://bitbucket.org/westfargorobotics/targettracker) - Vision Procesing on Kangaroo PC (in development)
+      - [WF Robotics, 4818 The Herd](https://bitbucket.org/westfargorobotics/robot) - Current development repo for WF Robotics
+      - [7048 Red River Rage](https://bitbucket.org/redriverrage/robot) - Current development repo for Red River Rage
+      
+- [ScreenStepsLive](https://wpilib.screenstepslive.com/s/4485) - All FRC Tutorials
    - eclipse plugin: [http://first.wpi.edu/FRC/roborio/release/eclipse/](http://first.wpi.edu/FRC/roborio/release/eclipse/)
    - [FRC Update Suite](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599671-installing-the-frc-update-suite-all-languages)
 
