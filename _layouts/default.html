@@ -15,16 +15,43 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-
+          
+          {% if site.logo %}
+          <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" height="100" /></a>
+          {% endif %}
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          {% if site.team1 %}
+          <p class="view" >
+            <a href="{{site.team1url | absolute_url}}">
+              {% if site.team1img %}
+              <img src="{{site.team1img | relative_url}}" alt="{{site.team1}} Logo" style="max-height:150px;"/><br>
+              {% endif %}
+              {{site.team1}}
+            </a>
+          </p>
+          {% endif %}
 
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
+          {% if site.team2 %}
+          <p class="view" >
+            <a href="{{site.team2url | absolute_url}}">
+              {% if site.team2img %}
+              <img src="{{site.team2img | relative_url}}" alt="{{site.team2}} Logo" style="max-height:150px;"/><br>
+              {% endif %}
+              {{site.team2}}
+            </a>
+          </p>
+          {% endif %}
+
+          {% if site.team3 %}
+          <p class="view" >
+            <a href="{{site.team3url | absolute_url}}">
+              {% if site.team3img %}
+              <img src="{{site.team3img | relative_url}}" alt="{{site.team3}} Logo" style="max-height:150px;"/><br>
+              {% endif %}
+              {{site.team3}}
+            </a>
+          </p>
           {% endif %}
         </header>
     </div>
@@ -43,6 +70,9 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        
+        <p><a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a></p>
+
       </footer>
     </div>
 
