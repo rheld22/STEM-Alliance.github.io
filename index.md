@@ -18,10 +18,10 @@
 
 |  | Game Type | 254 | 33 | 2767 | 971 |
 |------|---------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2018 | Cubes, Lifting |  |  | [2767](https://www.chiefdelphi.com/media/papers/download/5481) | [971 pt1](http://frc971.org/files/2017-TechnicalDocumentation-971.pdf), [971 pt2](http://frc971.org/files/2017-ControlsDocumentation-971.pdf) |
+| 2018 | Cubes, Lifting |  |  | [2767](https://www.chiefdelphi.com/media/papers/download/5481) | [pt 1](http://frc971.org/files/2017-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2017-ControlsDocumentation-971.pdf) |
 | 2017 | Fast Small Ball Shooting, Disk Shapes | [254](https://media.team254.com/2017/09/964207d8-technicalBinder2017.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/2017%20Design%20Binder.pdf) |  | [971](http://frc971.org/files/2016-TechnicalDocumentation-971.pdf) |
-| 2016 | Dodgeball Shooter | [254](https://media.team254.com/2016/05/97d107e6-technicalBinder2016.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/Design%20Binder%202016.pdf) |  | [971 pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [971 pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) |
-| 2015 | Lifting | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) |  | [971 pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [971 pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) |
+| 2016 | Dodgeball Shooter | [254](https://media.team254.com/2016/05/97d107e6-technicalBinder2016.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/Design%20Binder%202016.pdf) |  | [pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) |
+| 2015 | Lifting | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) |  | [pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) |
 | 2014 | Large Ball Shooter | [254](https://www.team254.com/first/2014/) |  |  |  |
 
 
