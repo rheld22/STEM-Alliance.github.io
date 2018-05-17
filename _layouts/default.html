@@ -18,9 +18,16 @@
           
           <div>
             {% if site.logo %}
-            <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" height="100" style="float: left; margin-right:1rem; border:none; box-shadow:none;" /></a>
+            <a href="{{ "/" | absolute_url }}">
+              <h1 id="project_title">
+                <img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/>
+              </h1>
+            </a>
+            {% else %}
+            <a href="{{ "/" | absolute_url }}">
+              <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+            </a>
             {% endif %}
-            <a href="{{ "/" | absolute_url }}"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
           </div>
           
           {% if site.description %}

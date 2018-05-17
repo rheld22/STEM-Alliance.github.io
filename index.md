@@ -37,11 +37,17 @@
 - Gearing & Forces
    - [Spartan's Design Presentation](https://youtu.be/VNfFn-gcfFI?t=479)
    - [WCP Gearing Information](http://www.wcproducts.net/how-to-gears/)
+   
+- Belts/Chain
    - [WCP Belts Information](http://www.wcproducts.net/how-to-belts/)
+   - [Selecting Belts Guide](http://www.sdp-si.com/D265/PDF/D265T146.pdf)
+   - [Tsubaki Chains](https://www.ustsubaki.com/sitemap.html) - Huge selection of chains, sprockets, cable, etc
+   - [Belts vs Chain](https://www.chiefdelphi.com/media/papers/download/2490) - from team 234
 
  - Drivetrains
    - [WCP Drivetrain Information](http://www.wcproducts.net/how-to-drivetrain/)
    - [Intro to Swerve](https://docs.google.com/presentation/d/1wWh1g9xM9V4DxjItj85Wz9oY2O4tN1AmQPimYl7-920/mobilepresent?slide=id.g38a8194d37_0_163) - Swerve presentation from Detroit 2018
+   - [Drive Train Basics](https://team1640.com/wiki/images/b/b0/Drive_Lesson_3.pdf) - From team 1640
 
 - Pneumatics
    - [FIRST Pneumatics Manual 2017](https://firstfrc.blob.core.windows.net/frc2017/pneumatics-manual.pdf)
