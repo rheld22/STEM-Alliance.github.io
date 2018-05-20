@@ -48,7 +48,7 @@
    - [WCP Drivetrain Information](http://www.wcproducts.net/how-to-drivetrain/)
    - [Intro to Swerve](https://docs.google.com/presentation/d/1wWh1g9xM9V4DxjItj85Wz9oY2O4tN1AmQPimYl7-920/mobilepresent?slide=id.g38a8194d37_0_163) - Swerve presentation from Detroit 2018
    - [Drive Train Basics](https://team1640.com/wiki/images/b/b0/Drive_Lesson_3.pdf) - From team 1640
-   - [Encyclopedia Robotics v2](https://drive.google.com/file/d/0B80r7XvonBIqLVJoSHVYUUZ4dDA/view) - Drivertain and manipulator example designs
+   - [Encyclopedia Robotics v2](https://www.chiefdelphi.com/media/papers/download/5486) - Drivertain and manipulator example designs
 
 - Pneumatics
    - [FIRST Pneumatics Manual 2017](https://firstfrc.blob.core.windows.net/frc2017/pneumatics-manual.pdf)
