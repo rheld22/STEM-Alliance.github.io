@@ -84,7 +84,9 @@
    - [148 Robowranglers](https://github.com/Team148)
    - [195 CyberKnights](https://github.com/frcteam195)
    - [254 Cheezy Poofs](https://github.com/Team254)
+   - [1114 Simbotics](https://bitbucket.org/kaleb_dodd/profile/repositories)
    - [1678 Citrus Circuits](https://github.com/frc1678)
+   - [2471 Mean Machine](https://github.com/TeamMeanMachine)
    - [2767 Strykeforce](https://github.com/strykeforce)
 
 # Business
