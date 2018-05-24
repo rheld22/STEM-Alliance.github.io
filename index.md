@@ -57,6 +57,8 @@
    - [WCD Tank Designs](https://www.chiefdelphi.com/forums/showthread.php?threadid=165383)
    - [Wheel choices](https://www.chiefdelphi.com/forums/showthread.php?threadid=165372) - Colsons vs Traction wheels
    - [Best Intake Designs](https://www.chiefdelphi.com/forums/showthread.php?threadid=165075)
+   - [Advantages/Disadvantages of WCD](https://www.chiefdelphi.com/forums/showthread.php?t=152211)
+   - [WCD Design Decisions](https://www.chiefdelphi.com/forums/showthread.php?t=160115)
 
 # Programming
 
