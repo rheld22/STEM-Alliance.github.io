@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+#header_wrap .inner {
+    padding: 10px 10px 30px 10px;
+}
 
 .wrapper {
     width:1100px;
