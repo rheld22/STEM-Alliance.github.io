@@ -24,6 +24,9 @@
 | [2015](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2015/GameManual20150407.pdf) | [Youtube](https://www.youtube.com/results?search_query=frc+2015+einstein) | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) |  | [pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) |
 | [2014](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2014/2014-game-manual.pdf) | [Youtube](https://www.youtube.com/results?search_query=frc+2014+einstein) | [254](https://www.team254.com/first/2014/) |  |  | [pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) |
 
+# General Design
+- [Engineering Design for FRC](http://people.clarkson.edu/~jcarroll/FIRST/Engineering_Design_Process_in_Competition_Robotics_-_PAPER.20091204.pdf) - by JVN from 148 Robowranglers
+
 # Mechanical
 
 - PTC Creo
