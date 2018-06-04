@@ -85,6 +85,9 @@
    - [Motion Profile Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
    - [Java Code Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages)
 
+- Control Theory / PID Tuning
+   - [1678 Blog on PID Tuning and Control Theory](http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
+
 - Team Githubs
    - [148 Robowranglers](https://github.com/Team148)
    - [195 CyberKnights](https://github.com/frcteam195)
