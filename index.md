@@ -76,10 +76,12 @@
       - [WF Robotics, 4818 The Herd](https://bitbucket.org/westfargorobotics/robot) - Current development repo for WF Robotics
       - [7048 Red River Rage](https://bitbucket.org/redriverrage/robot) - Current development repo for Red River Rage
       
-- [ScreenStepsLive](https://wpilib.screenstepslive.com/s/4485) - All FRC Tutorials
-   - eclipse plugin: [http://first.wpi.edu/FRC/roborio/release/eclipse/](http://first.wpi.edu/FRC/roborio/release/eclipse/)
-   - [FRC Update Suite](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599671-installing-the-frc-update-suite-all-languages)
-
+- General Resources
+   - [ScreenStepsLive](https://wpilib.screenstepslive.com/s/4485) - All FRC Tutorials
+      - eclipse plugin: [http://first.wpi.edu/FRC/roborio/release/eclipse/](http://first.wpi.edu/FRC/roborio/release/eclipse/)
+      - [FRC Update Suite](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599671-installing-the-frc-update-suite-all-languages)
+   - [FRC Programming Done Right](http://frc-pdr.readthedocs.io/en/latest/) - Lots of resources for various programming aspects
+   
 - [Talon SRX/Phoenix Documentation](https://github.com/CrossTheRoadElec/Phoenix-Documentation)
    - [Software Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Victor%20SPX%20-%20Software%20Reference%20Manual.pdf)
    - [Motion Profile Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
