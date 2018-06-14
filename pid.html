@@ -93,13 +93,13 @@
           <input type="number"
                  id="input-p-0"
                  onchange="ns0.updateText()" 
-                 min="0" max="500" step="0.05" value="0"/>
+                 min="0" max="5" step="0.05" value="0"/>
         </td>
         <td>
           <input type="range"
                  class="slider-input" id="input-p-1"
                  oninput="ns0.updateSliders()"
-                 min="0" max="500" step="0.05" value="0" />
+                 min="0" max="5" step="0.05" value="0" />
         </td>
       </tr>
 
@@ -109,13 +109,13 @@
           <input type="number"
                  id="input-i-0"
                  onchange="ns0.updateText()" 
-                 min="0" max="500" step="0.05" value="0" />
+                 min="0" max=".5" step="0.05" value="0" />
         </td>
         <td>
           <input type="range"
                  class="slider-input" id="input-i-1"
                  oninput="ns0.updateSliders()"
-                 min="0" max="500" step="0.05" value="0" />
+                 min="0" max=".5" step="0.05" value="0" />
         </td>
       </tr>
 
@@ -125,15 +125,32 @@
           <input type="number"
                  id="input-d-0"
                  onchange="ns0.updateText()"
-                 min="0" max="500" step="0.05" value="0" />
+                 min="0" max="50" step="0.5" value="0" />
         </td>
         <td>
           <input type="range"
                  class="slider-input" id="input-d-1"
                  oninput="ns0.updateSliders()"
-                 min="0" max="500" step="0.05" value="0" />
+                 min="0" max="50" step="0.5" value="0" />
         </td>
       </tr>
+
+    <tr>
+      <td>iZone</td>
+      <td>
+        <input type="number"
+               id="input-izone-0"
+               onchange="ns0.updateText()" 
+               min="0" max="50" step="1" value="50" />
+      </td>
+      <td>
+        <input type="range"
+               class="slider-input" id="input-izone-1"
+               oninput="ns0.updateSliders()"
+               min="0" max="50" step="1" value="50" />
+      </td>
+    </tr>
+
     </table>
 
     <table>
@@ -255,11 +272,18 @@
     kd: 0,
     last_x: 0,
     integral: 0,
+    izone:  50,
 
     controlFunc: function(x, goal) {
       e = goal - x;
       deriv = x - this.last_x;
-      this.integral += e * this.timestep;
+
+      if(Math.abs(e) < this.izone) {
+        this.integral += e * this.timestep;
+      }
+      else {
+        this.integral = 0;
+      }
 
       this.last_x = x;
 
@@ -284,21 +308,23 @@
     },
 
     updateText: function() {
-      this.kp = parseInt(document.getElementById("input-p-0").value);
-      this.ki = parseInt(document.getElementById("input-i-0").value);
-      this.kd = parseInt(document.getElementById("input-d-0").value);
-      this.goal = parseInt(document.getElementById("input-goal-0").value);
+      this.kp = parseFloat(document.getElementById("input-p-0").value);
+      this.ki = parseFloat(document.getElementById("input-i-0").value);
+      this.kd = parseFloat(document.getElementById("input-d-0").value);
+      this.izone = parseFloat(document.getElementById("input-izone-0").value);
+      this.goal = parseFloat(document.getElementById("input-goal-0").value);
 
-      document.getElementById("input-p-1").value = this.kp / .01;
-      document.getElementById("input-i-1").value = this.ki / .0025;
-      document.getElementById("input-d-1").value = this.kd / .1;
+      document.getElementById("input-p-1").value = this.kp;
+      document.getElementById("input-i-1").value = this.ki;
+      document.getElementById("input-d-1").value = this.kd;
+      document.getElementById("input-izone-1").value = this.izone;
       document.getElementById("input-goal-1").value = this.goal;
 
       this.reset();
 
-      this.elevator.x = parseInt(document.getElementById("input-start-0").value);
-      this.elevator.ff = parseInt(document.getElementById("input-ff-0").value);
-      this.elevator.mass = parseInt(document.getElementById("input-mass-0").value);
+      this.elevator.x = parseFloat(document.getElementById("input-start-0").value);
+      this.elevator.ff = parseFloat(document.getElementById("input-ff-0").value);
+      this.elevator.mass = parseFloat(document.getElementById("input-mass-0").value);
 
       document.getElementById("input-start-1").value = this.elevator.x;
       document.getElementById("input-ff-1").value = this.elevator.ff;
@@ -308,21 +334,23 @@
     },
 
     updateSliders: function() {
-      this.kp = parseInt(document.getElementById("input-p-1").value) * 0.01;
-      this.ki = parseInt(document.getElementById("input-i-1").value) * 0.0025;
-      this.kd = parseInt(document.getElementById("input-d-1").value) * 0.1;
-      this.goal = parseInt(document.getElementById("input-goal-1").value);
+      this.kp = parseFloat(document.getElementById("input-p-1").value);
+      this.ki = parseFloat(document.getElementById("input-i-1").value);
+      this.kd = parseFloat(document.getElementById("input-d-1").value);
+      this.izone = parseFloat(document.getElementById("input-izone-1").value);
+      this.goal = parseFloat(document.getElementById("input-goal-1").value);
 
       document.getElementById("input-p-0").value = this.kp;
       document.getElementById("input-i-0").value = this.ki;
       document.getElementById("input-d-0").value = this.kd;
+      document.getElementById("input-izone-0").value = this.izone;
       document.getElementById("input-goal-0").value = this.goal;
 
       this.reset();
 
-      this.elevator.x = parseInt(document.getElementById("input-start-1").value);
-      this.elevator.ff = parseInt(document.getElementById("input-ff-1").value);
-      this.elevator.mass = parseInt(document.getElementById("input-mass-1").value);
+      this.elevator.x = parseFloat(document.getElementById("input-start-1").value);
+      this.elevator.ff = parseFloat(document.getElementById("input-ff-1").value);
+      this.elevator.mass = parseFloat(document.getElementById("input-mass-1").value);
 
       document.getElementById("input-start-0").value = this.elevator.x;
       document.getElementById("input-ff-0").value = this.elevator.ff;
