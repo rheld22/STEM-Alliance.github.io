@@ -89,6 +89,7 @@
 
 - Control Theory / PID Tuning
    - [1678 Blog on PID Tuning and Control Theory](http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
+   - [PID Tuning Training](pid.html)
 
 - Team Githubs
    - [148 Robowranglers](https://github.com/Team148)
