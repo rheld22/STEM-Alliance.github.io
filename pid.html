@@ -1,5 +1,38 @@
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <style>
+     .divTable{
+       display: table;
+       width: 95%;
+     }
+     .divTableRow {
+       display: table-row;
+     }
+     .divTableHeading {
+       background-color: #EEE;
+       display: table-header-group;
+     }
+     .divTableCell, .divTableHead {
+       border: 0px solid #999999;
+       display: table-cell;
+       padding: 3px;
+     }
+     .divTableHeading {
+       background-color: #EEE;
+       display: table-header-group;
+       font-weight: bold;
+     }
+     .divTableFoot {
+       background-color: #EEE;
+       display: table-footer-group;
+       font-weight: bold;
+     }
+     .divTableBody {
+       display: table-row-group;
+     }
+     .px100 {
+       width:50px;
+     }
      #graph-0 {
        height:400px;
      }
@@ -14,21 +47,6 @@
       .column {
           float: left;
           padding: 10px;
-      }
-
-      .left_100 {
-        width: 100px;
-      }
-
-      .center_100 {
-        width: -moz-calc(100% - 150px);
-        width: -webkit-calc(100% - 150px);
-        width: -o-calc(100% - 150px);
-        width: calc(100% - 150px);
-      }
-
-      .right_100 {
-        width: 100px;
       }
 
       .center {
@@ -56,6 +74,22 @@
          border-radius: 10px;
          cursor: pointer;
      }
+
+     input[type=range][orient=vertical]
+     {
+          writing-mode: bt-lr; /* IE */
+          -webkit-appearance: slider-vertical; /* WebKit */
+          width: 7px;
+          height: 380px;
+          padding: 0 5px;
+          margin:auto;
+     }
+     .divTableCell input[type=number]{
+       width: 50px;
+     } 
+     input[type=number]{
+       width: 100px;
+     } 
      table {
         border-collapse: collapse;
         margin-top: 20;
@@ -68,61 +102,63 @@
         padding: 5px;
      }
   </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
   <div>
-    <div class="row">
-      <div id="graph-0" class="column center_100"></div>
-
-      <canvas id="canvas-0" class="column right_100"
-              height="600" style="height: 600px;"></canvas>
+    <div class="divTable">
+      <div class="divTableBody">
+        <div class="divTableRow">
+          <div class="divTableCell px100">
+            <input type="range" orient="vertical"
+                   class="slider-input" id="input-start-1"
+                   oninput="ns0.updateSliders()"
+                   min="-10" max="20" step="0.05" value="0" />
+          </div>
+          <div class="divTableCell px100" margin="10">
+              <input type="range" orient="vertical"
+                     class="slider-input" id="input-goal-1"
+                     oninput="ns0.updateSliders()"
+                     min="-10" max="20" step="0.05" value="5" />
+          </div>
+          <div class="divTableCell">
+            <div id="graph-0"></div>
+          </div>
+          <div class="divTableCell px100">
+            <canvas id="canvas-0" class="column px100"
+                    height="600" style="height: 600px;"></canvas>
+            </div>
+        </div>
+        <div class="divTableRow">
+          <div class="divTableCell px100">
+            <input type="number"
+                   id="input-start-0" class="small-num-input"
+                   onchange="ns0.updateText()" 
+                   min="-10" max="20" step="0.05" value="0" />
+                   Start
+          </div>
+          <div class="divTableCell px100">
+            <input type="number"
+                   id="input-goal-0" class="small-num-input"
+                   onchange="ns0.updateText()" 
+                   min="-10" max="20" step="0.05" value="5"/>
+                   Goal
+          </div>
+          <div class="divTableCell">
+            <script type="math/tex; mode=display" id="MathJax-Element-1">output = (gain_{p} \times e) + (gain_{i} \times \int_0^t e)  - (gain_{d} \times \frac{d_{e}}{d_{t}}) </script>
+          </div>
+          <div class="divTableCell px100">
+            <div align="center">
+              <button onclick="ns0.reset()" style="font-size: 18">
+                Run
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <script type="math/tex; mode=display" id="MathJax-Element-1">output = (gain_{p} \times e) + (gain_{i} \times \int_0^t e)  - (gain_{d} \times \frac{d_{e}}{d_{t}}) </script>
-
-    <div align="center">
-      <button onclick="ns0.reset()" style="font-size: 18">
-        Run
-      </button>
-    </div>
-
-    <table >
-      <col width="100">
-      <col width="100">
-      <col width="400">
-
-      <tr>
-        <td>Start</td>
-        <td>
-          <input type="number"
-                 id="input-start-0"
-                 onchange="ns0.updateText()" 
-                 min="0" max="20" step="0.05" value="0" />
-        </td>
-        <td>
-          <input type="range"
-                 class="slider-input" id="input-start-1"
-                 oninput="ns0.updateSliders()"
-                 min="0" max="20" step="0.05" value="0" />
-        </td>
-      </tr>
-
-      <tr>
-        <td>Goal</td>
-        <td>
-          <input type="number"
-                 id="input-goal-0"
-                 onchange="ns0.updateText()" 
-                 min="0" max="20" step="0.05" value="5" />
-        </td>
-        <td>
-          <input type="range"
-                 class="slider-input" id="input-goal-1"
-                 oninput="ns0.updateSliders()"
-                 min="0" max="20" step="0.05" value="5" />
-        </td>
-      </tr>
-    </table>
     <table>
       <col width="100">
       <col width="100">
@@ -232,7 +268,7 @@
       </tr>
 
     </table>
-    <p>PID Tuning taken from <a href="http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning">http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning</a></p>
+    <p align="center">PID Tuning taken from <a href="http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning">http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning</a></p>
   </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
@@ -309,7 +345,7 @@ originaInitStatic.call(this,t,e),this.contextContainer=this.nodeCanvas.getContex
       integral: 0,
       izone:  50,
 
-      canvas_width: 100,
+      canvas_width: 60,
       canvas_height: 400,
       elev_width: 20,
       elev_height: 40,
@@ -322,7 +358,9 @@ originaInitStatic.call(this,t,e),this.contextContainer=this.nodeCanvas.getContex
         drawPoints: true,
         showRoller: false,
         valueRange: [-10, 20],
-        labels: ['Time', 'Height', "Goal"]
+        labels: ['Time', 'Height', "Goal"],
+        hideOverlayOnMouseOut: false,
+        digitsAfterDecimal:2
       }),
      
       canvas: new fabric.StaticCanvas('canvas-0'),
