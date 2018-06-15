@@ -16,18 +16,31 @@
           padding: 10px;
       }
 
-      .left {
-        width: 80%;
+      .left_100 {
+        width: 100px;
       }
 
-      .right {
-        width: 20%;
+      .center_100 {
+        width: -moz-calc(100% - 150px);
+        width: -webkit-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: calc(100% - 150px);
       }
+
+      .right_100 {
+        width: 100px;
+      }
+
+      .center {
+        margin: auto;
+      }
+
       .row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+         content: "";
+         display: table;
+         clear: both;
+      }
+
      .slider-input::-moz-range-track {
          border-radius: 8px;
          height: 7px;
@@ -59,15 +72,21 @@
 <body>
   <div>
     <div class="row">
-      <div id="graph-0" class="column left"></div>
+      <div id="graph-0" class="column center_100"></div>
 
-      <canvas id="canvas-0" class="column right"
+      <canvas id="canvas-0" class="column right_100"
               height="600" style="height: 600px;"></canvas>
     </div>
 
     <script type="math/tex; mode=display" id="MathJax-Element-1">output = (gain_{p} \times e) + (gain_{i} \times \int_0^t e)  - (gain_{d} \times \frac{d_{e}}{d_{t}}) </script>
 
-    <table>
+    <div align="center">
+      <button onclick="ns0.reset()" style="font-size: 18">
+        Run
+      </button>
+    </div>
+
+    <table >
       <col width="100">
       <col width="100">
       <col width="400">
@@ -104,7 +123,6 @@
         </td>
       </tr>
     </table>
-
     <table>
       <col width="100">
       <col width="100">
@@ -403,9 +421,10 @@ originaInitStatic.call(this,t,e),this.contextContainer=this.nodeCanvas.getContex
       },
      
       reset: function() {
+        var start = parseFloat(document.getElementById("input-start-0").value);
         this.elevator = {
-          'x': 8,
-          'last_x': 8,
+          'x': start,
+          'last_x': start,
           'xdot': 0,
           'xddot': 0,
           'ff': 10,
@@ -414,8 +433,8 @@ originaInitStatic.call(this,t,e),this.contextContainer=this.nodeCanvas.getContex
         };
 
         this.elevator2 = {
-          'x': 8,
-          'last_x': 8,
+          'x': start,
+          'last_x': start,
           'xdot': 0,
           'xddot': 0,
           'ff': 10,
