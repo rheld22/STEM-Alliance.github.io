@@ -16,6 +16,7 @@
        border: 0px solid #999999;
        display: table-cell;
        padding: 3px;
+       position: relative;
      }
      .divTableHeading {
        background-color: #EEE;
@@ -34,7 +35,7 @@
        width:50px;
      }
      #graph-0 {
-       height:400px;
+       height:440px;
      }
 
      .slider-input {
@@ -43,6 +44,11 @@
      }
      #canvas-0 {
          border: 1px solid #bdc3c7;
+         
+         position: absolute;
+         top:17px;
+         left:20px;
+         height:380px;
      }
       .column {
           float: left;
@@ -83,6 +89,9 @@
           height: 380px;
           padding: 0 5px;
           margin:auto;
+          position: absolute;
+          top:30px;
+          left:20px;
      }
      .divTableCell input[type=number]{
        width: 50px;
@@ -121,14 +130,14 @@
               <input type="range" orient="vertical"
                      class="slider-input" id="input-goal-1"
                      oninput="ns0.updateSliders()"
-                     min="-10" max="20" step="0.05" value="5" />
+                     min="-10" max="20" step="0.05" value="5"/>
           </div>
           <div class="divTableCell">
             <div id="graph-0"></div>
           </div>
           <div class="divTableCell px100">
             <canvas id="canvas-0" class="column px100"
-                    height="600" style="height: 600px;"></canvas>
+                    height="600" ></canvas>
             </div>
         </div>
         <div class="divTableRow">
@@ -360,7 +369,37 @@ originaInitStatic.call(this,t,e),this.contextContainer=this.nodeCanvas.getContex
         valueRange: [-10, 20],
         labels: ['Time', 'Height', "Goal"],
         hideOverlayOnMouseOut: false,
-        digitsAfterDecimal:2
+        digitsAfterDecimal:2,
+        legend:"always",
+        title:"Elevator",
+        xlabel:"Time (s)",
+        ylabel:"Height",
+        series: {
+              'Height': { axis: 'y' },
+              'Goal': { axis: 'y' }
+            },
+            axes: {
+              x: {
+                valueFormatter: function(ms) {
+                  return ms.toPrecision(3);
+                },
+                axisLabelFormatter: function(d) {
+                  return d;
+                },
+                pixelsPerLabel: 30,
+                axisLabelWidth: 20,
+              },
+              y: {
+                valueFormatter: function(y) {
+                  return  y.toPrecision(3) ;
+                },
+                axisLabelFormatter: function(y) {
+                  return y;
+                },
+                pixelsPerLabel: 20,
+                axisLabelWidth: 30
+              },
+            }
       }),
      
       canvas: new fabric.StaticCanvas('canvas-0'),
