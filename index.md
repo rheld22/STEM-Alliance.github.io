@@ -13,8 +13,6 @@
 - FRC 4818, [The Herd, WF Robotics](http://www.wfrobotics.org/)
 - FRC 7048, [Red River Rage](http://www.redriverrage.com)
 
-[Robotics Team Resources & Links](resources)
-
 ## Sponsors
 
 [![Greater Fargo/Moorhead Economic Development Corporation](logos/gfmedc.png)](http://gfmedc.com/)
@@ -28,7 +26,6 @@
 [![Appareo](logos/appareo.png)](https://www.appareo.com/)
 
 [![Classic Industries](logos/classicindustries.png)](http://www.alumadeck.com/)
-
 
 ## Contact Us
 

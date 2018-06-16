@@ -17,6 +17,7 @@
 ## STEM Alliance Links
 - [Shared Documents OneDrive Folder](https://1drv.ms/f/s!AprigkKMKYgtgalNQPmc59XpZ3NQuQ)
 - [Common Parts we use at the STEM Alliance](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21710&parId=2D88298C4282E29A!21709&app=Excel)
+- [PID Tuning Training](pid)
 
 ## Websites
 - [FRC Game Manual](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
@@ -100,7 +101,7 @@
 
 - Control Theory / PID Tuning
    - [1678 Blog on PID Tuning and Control Theory](http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
-   - [PID Tuning Training](pid.html)
+   - [PID Tuning Training](pid)
 
 - Team Githubs
    - [148 Robowranglers](https://github.com/Team148)

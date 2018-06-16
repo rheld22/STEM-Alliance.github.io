@@ -110,6 +110,9 @@
         border: 1px solid black;
         padding: 5px;
      }
+     .inner {
+       max-width:unset;
+     }
   </style>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -118,56 +121,42 @@
 <body>
   <div>
     <div class="divTable">
-      <div class="divTableBody">
-        <div class="divTableRow">
-          <div class="divTableCell px100">
-            <input type="range" orient="vertical"
-                   class="slider-input" id="input-start-1"
-                   oninput="ns0.updateSliders()"
-                   min="-10" max="20" step="0.05" value="0" />
-          </div>
-          <div class="divTableCell px100" margin="10">
-              <input type="range" orient="vertical"
-                     class="slider-input" id="input-goal-1"
-                     oninput="ns0.updateSliders()"
-                     min="-10" max="20" step="0.05" value="5"/>
-          </div>
-          <div class="divTableCell">
-            <div id="graph-0"></div>
-          </div>
-          <div class="divTableCell px100">
-            <canvas id="canvas-0" class="column px100"
-                    height="600" ></canvas>
-            </div>
-        </div>
-        <div class="divTableRow">
-          <div class="divTableCell px100">
-            <input type="number"
-                   id="input-start-0" class="small-num-input"
-                   onchange="ns0.updateText()" 
-                   min="-10" max="20" step="0.05" value="0" />
-                   Start
-          </div>
-          <div class="divTableCell px100">
-            <input type="number"
-                   id="input-goal-0" class="small-num-input"
-                   onchange="ns0.updateText()" 
-                   min="-10" max="20" step="0.05" value="5"/>
-                   Goal
-          </div>
-          <div class="divTableCell">
-            <script type="math/tex; mode=display" id="MathJax-Element-1">output = (gain_{p} \times e) + (gain_{i} \times \int_0^t e)  - (gain_{d} \times \frac{d_{e}}{d_{t}}) </script>
-          </div>
-          <div class="divTableCell px100">
-            <div align="center">
-              <button onclick="ns0.reset()" style="font-size: 18">
-                Run
-              </button>
-            </div>
-          </div>
-        </div>
+      <div class="divTableCell px100">
+        <input type="range" orient="vertical"
+               class="slider-input" id="input-start-1"
+               oninput="ns0.updateSliders()"
+               min="-10" max="20" step="0.05" value="0" />
+          Start
+        <input type="number"
+               id="input-start-0" class="small-num-input"
+               onchange="ns0.updateText()" 
+               min="-10" max="20" step="0.05" value="0" />
+      </div>
+      <div class="divTableCell px100" margin="10">
+        <input type="range" orient="vertical"
+               class="slider-input" id="input-goal-1"
+               oninput="ns0.updateSliders()"
+               min="-10" max="20" step="0.05" value="5"/>
+          Goal
+        <input type="number"
+               id="input-goal-0" class="small-num-input"
+               onchange="ns0.updateText()" 
+               min="-10" max="20" step="0.05" value="5"/>
+      </div>
+      <div class="divTableCell">
+        <div id="graph-0"></div>
+      </div>
+      <div class="divTableCell px100">
+        <canvas id="canvas-0" class="column px100"
+                height="600" ></canvas>
+        <button onclick="ns0.reset()" style="font-size: 18">
+          Run
+        </button>
       </div>
     </div>
+    <script type="math/tex; mode=display" id="MathJax-Element-0">error = goal - current</script>
+    <script type="math/tex; mode=display" id="MathJax-Element-1">output = (gain_{p} \times error) + (gain_{i} \times \int_0^t error)  + (gain_{d} \times \frac{d_{error}}{d_{t}})</script>
+    <script type="math/tex; mode=display" id="MathJax-Element-2">output = (proportional\ term) + (integral\ term) + (derivative\ term)</script>
     <table>
       <col width="100">
       <col width="100">
