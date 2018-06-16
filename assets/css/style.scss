@@ -25,3 +25,20 @@ img.logo {
     margin-left: auto;
     margin-right: auto;
 }
+
+.copyright {
+   text-align: center
+}
+
+#forkme_banner {
+   background: url("../images/blacktocat.png") #0040b0 no-repeat 98% 50%;
+   border-radius:10px;
+   max-width: 500px;
+   font-weight: normal;
+   position: unset;
+   right: unset;
+   margin: auto;
+}
+#forkme_banner a {
+   font-weight: bold;
+}
