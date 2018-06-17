@@ -335,13 +335,18 @@ footer .theme-by {
     padding: 50px 0;
   }
   footer .footer-links {
-    font-size: 18px;
+    font-size: 26px;
   }
   footer .copyright {
     font-size: 16px;
   }
 }
-
+ 
+.footer-links img {
+   width:70%;
+   top: 15%;
+   left: 15%;
+}
 /* --- Post preview --- */
 
 .post-preview {

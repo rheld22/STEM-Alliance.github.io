@@ -11,12 +11,18 @@
               <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="{{ element.name }}">
             {%- elsif curkey == 'yelp' -%}
               <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
+            {%- elsif curkey == 'redriverrage' or curkey == 'herd' or curkey == 'spudnik' -%}
+              <a href="{{element.baseURL}}" title="{{ element.name }}">
             {%- else -%}
               <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
             {%- endif -%}
                 <span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
+                  {%- if curkey == 'redriverrage' or curkey == 'herd' or curkey == 'spudnik' -%}
+                  <img class="fa fa-stack-1x fa-inverse" src="{{ element.icon }}" />
+                  {%- else -%}
                   <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  {%- endif -%}
                 </span>
                 <span class="sr-only">{{ element.name }}</span>
               </a>

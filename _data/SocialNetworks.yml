@@ -95,3 +95,20 @@ yelp:
   name: "Yelp"
   baseURL: "https://{{ site.author.yelp }}.yelp.com"
   icon: "fa-yelp"
+
+
+redriverrage:
+  name: "Red River Rage"
+  baseURL: "http://redriverrage.com"
+  icon: "/img/rrr.svg"
+
+
+herd:
+  name: "The Herd"
+  baseURL: "http://wfrobotics.org"
+  icon: "/img/herd.svg"
+
+spudnik:
+  name: "Spudnik"
+  baseURL: "http://www.moorheadrobotics.org"
+  icon: "/img/spud.svg"
