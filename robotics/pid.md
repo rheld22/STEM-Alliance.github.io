@@ -265,7 +265,7 @@ use-site-title: true
       </tr>
 
     </table>
-    <p align="center">PID Tuning taken from <a href="http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning">http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning</a></p>
+    <p align="center">PID Tuning taken from <a href="http://blog.wesleyac.com/posts/intro-to-control-part-two-pid-tuning">a 1678's alumni's blog</a></p>
   </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
