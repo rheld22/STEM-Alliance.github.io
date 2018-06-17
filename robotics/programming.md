@@ -1,5 +1,6 @@
 ---
 title: Programming Resources
+use-site-title: true
 ---
 
 - Code Repositories

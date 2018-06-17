@@ -1,5 +1,6 @@
 ---
-title: : STEM Alliance of Fargo Moorhead
+title: PID Tuning Trainer
+use-site-title: true
 ---
 
   <style>

@@ -1,5 +1,6 @@
 ---
 title: Resources
+use-site-title: true
 ---
 
 ## Links

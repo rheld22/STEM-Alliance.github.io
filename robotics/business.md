@@ -1,5 +1,6 @@
 ---
 title: Business Resources
+use-site-title: true
 ---
 
 - Fundraising

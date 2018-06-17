@@ -1,14 +1,12 @@
 ---
 title: STEM Alliance of Fargo Moorhead
-use-site-title: true
+use-site-title: false
 ---
 
 ## Teams
 - FRC 4360, [Spudnik Robotics](http://www.moorheadrobotics.org/)
 - FRC 4818, [The Herd, WF Robotics](http://www.wfrobotics.org/)
 - FRC 7048, [Red River Rage](http://www.redriverrage.com)
-
-## Sponsors
 
 [![Greater Fargo/Moorhead Economic Development Corporation](logos/gfmedc.png)](http://gfmedc.com/)
 

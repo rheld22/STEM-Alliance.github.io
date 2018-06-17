@@ -1,5 +1,6 @@
 ---
 title: Mechanical Resources
+use-site-title: true
 ---
 
 - PTC Creo

@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+use-site-title: true
 ---
 
 <style>
