@@ -121,6 +121,9 @@ img {
   letter-spacing: 1px;
 }
 
+.navbar-custom.top-nav-short .nav li a {
+   font-size: 12px;
+ }
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
@@ -163,6 +166,12 @@ img {
 
   .navbar-custom.top-nav-short {
     padding: 0;
+  }
+  .navbar-custom .nav li a {
+    font-size: 16px;
+    -webkit-transition: font-size .5s ease-in-out;
+    -moz-transition: font-size .5s ease-in-out;
+    transition: font-size .5s ease-in-out;
   }
 }
 
