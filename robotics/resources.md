@@ -3,7 +3,7 @@ title: Resources
 use-site-title: true
 ---
 
-## Links
+# Links
 - [Shared Documents OneDrive Folder](https://1drv.ms/f/s!AprigkKMKYgtgalNQPmc59XpZ3NQuQ)
 - [Common Parts we use at the STEM Alliance](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21710&parId=2D88298C4282E29A!21709&app=Excel)
 - [PID Tuning Training](pid)
@@ -13,10 +13,10 @@ use-site-title: true
 - [FRC Survival Guide from 4468](http://fernbanklinks.com/wp-content/uploads/2017/07/FRCSurvivalGuide.pdf) - HUGE list of links/resources
 - [The Blue Alliance](https://thebluealliance.com/)
 
-## General Design
+# General Design
 - [Engineering Design for FRC](http://people.clarkson.edu/~jcarroll/FIRST/Engineering_Design_Process_in_Competition_Robotics_-_PAPER.20091204.pdf) - by JVN from 148 Robowranglers
 
-## Technical Binders
+# Technical Binders
 
 |      | Youtube | 254  | 33   | 2767 | 971  |
 |------|---------|------|------|------|------|

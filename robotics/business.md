@@ -1,10 +1,10 @@
 ---
-title: Business Resources
+title: Business
 use-site-title: true
 ---
 
-- Fundraising
-   - [FRC Grants/Crowdfunding](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/grants-and-crowdfunding.pdf) - Info from FIRST
+# Fundraising
+ - [FRC Grants/Crowdfunding](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/grants-and-crowdfunding.pdf) - Info from FIRST
 
-- Branding
-   - [254 Brand Guide](https://www.team254.com/resources/identity/)
+# Branding
+ - [254 Brand Guide](https://www.team254.com/resources/identity/)

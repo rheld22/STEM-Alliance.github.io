@@ -1,6 +1,7 @@
 ---
 title: Teams
 use-site-title: true
+bigimg: /img/teams.jpg
 ---
 
 - FRC 4360, [Spudnik Robotics](http://www.moorheadrobotics.org/)
