@@ -69,6 +69,7 @@
   </div>
 </div>
 
+<ul class="list-inline text-center footer-links" >
    {% for team in site.teams %}
    <li>
       <a href="{{ team.url }}" title="{{ team.name }}" style="color:{{ team.color }};">
@@ -77,6 +78,7 @@
          <img class="fa fa-stack-1x fa-inverse" src="{{ team.image }}">
          </div>
          <div>{{ team.number }}</div>
+         <div>{{ team.name }}</div>
       </a>
    </li>
    {% endfor %}
