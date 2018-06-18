@@ -1,9 +1,23 @@
+---
+layout: page
+title: Posts
+use-site-title: true
+---
+
 <div class="posts-list">
    {% for post in paginator.posts %}
-   <article class="post-preview">
+   <ar00t0icle class="post-preview">
+     {% if post.desturl %}
+     <a href="{{ post.desturl }}">
+     {% else %}
      <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2 class="post-title">{{ post.title }}</h2>
- 
+     {% endif %}
+      <span>
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.desturl %}
+        <i class="fa-overlap fa fa-external-link fa-lg"></i>
+        {% endif %}
+      </span>
       {% if post.subtitle %}
       <h3 class="post-subtitle">
         {{ post.subtitle }}
@@ -12,9 +26,15 @@
      </a>
  
      <p class="post-meta">
-       Posted on {{ post.date | date: "%B %-d, %Y" }}
+       Posted on {{ post.date | date: "%B %-d, %Y" }} 
+       {% if post.destsite %}
+       by {{ post.destsite }}
+       {% endif %}
      </p>
  
+     {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+     {% assign excerpt_word_count = post.excerpt | number_of_words %}
+     {% if post.image or post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
      <div class="post-entry-container">
        {% if post.image %}
        <div class="post-image">
@@ -23,14 +43,13 @@
          </a>
        </div>
        {% endif %}
-       <div class="post-entry">
-         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-         {% assign excerpt_word_count = post.excerpt | number_of_words %}
-         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+       {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+         <div class="post-entry">
            <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-         {% endif %}
-       </div>
+         </div>
+       {% endif %}
      </div>
+     {% endif %}
  
      {% if post.tags.size > 0 %}
      <div class="blog-tags">

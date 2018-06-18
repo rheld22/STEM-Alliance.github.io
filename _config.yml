@@ -24,9 +24,9 @@ description: STEM Alliance of Fargo Moorhead
 
 # List of links in the navigation bar
 navbar-links:
-  Who We Are:
-    - About Us: "aboutus"
-    - Contact Us: "contactus"
+  About Us: "aboutus"
+  Contact Us: "contactus"
+  Posts: "posts"
   Robotics:
     - Teams: "robotics/teams"
     - Resources: "robotics/resources"
@@ -155,6 +155,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/posts/:num/"
 
 kramdown:
   input: GFM
@@ -163,11 +164,11 @@ kramdown:
 defaults:
   -
     scope:
-      path: ""
+      path: "posts"
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:

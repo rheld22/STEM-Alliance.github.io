@@ -471,6 +471,12 @@ footer .theme-by {
     float: left;
   }
 }
+
+.fa-overlap {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
 /* --- Post and page headers --- */
 
 .intro-header {
