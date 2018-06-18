@@ -35,6 +35,23 @@ navbar-links:
     - PID Tuning: "robotics/pid"
     - Business: "robotics/business"
 
+teams:
+  - number: FRC 4360
+    name: Spudnik Robotics
+    url: http://moorheadrobotics.org
+    color: rgb(235, 122, 47)
+    image: /img/spud.svg
+  - number: FRC 4818
+    name: The Herd, WF Robotics
+    url: http://wfrobotics.org
+    color: '#006600'
+    image: /img/herd.svg
+  - number: FRC 7048
+    name: Red River Rage
+    url: http://redriverrage.com
+    color: '#820000'
+    image: /img/rrr.svg
+
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/logos/logo_gear_s_circle.png"
@@ -175,6 +192,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
+      add-teams: false
       show-avatar: true
 
 # Use tags index page and make tags on each post clickable
