@@ -3,7 +3,7 @@ title: Programming
 use-site-title: true
 ---
 
-# Code Repositories
+# STEM Alliance Code Repositories
  - Public Repos
     - [WF Robotics, 4818 The Herd](https://github.com/WFRobotics) - All shared public repos for WF Robotics
     - [The ShepHerd](https://bitbucket.org/westfargorobotics/theherdscouting) - Scouting app developed by WF Robotics
@@ -31,7 +31,7 @@ use-site-title: true
  - [1678 Blog on PID Tuning and Control Theory](http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
  - [PID Tuning Training](/robotics/pid)
 
-# Team Githubs
+# Other Team Githubs
  - [148 Robowranglers](https://github.com/Team148)
  - [195 CyberKnights](https://github.com/frcteam195)
  - [254 Cheezy Poofs](https://github.com/Team254)

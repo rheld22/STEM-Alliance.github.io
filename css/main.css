@@ -173,6 +173,10 @@ img {
     -moz-transition: font-size .5s ease-in-out;
     transition: font-size .5s ease-in-out;
   }
+
+  ul.navbar-right {
+    max-width: 45%;
+  }
 }
 
 
@@ -332,7 +336,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 30px 0;
   }
   footer .footer-links {
     font-size: 26px;
@@ -347,6 +351,28 @@ footer .theme-by {
    top: 15%;
    left: 15%;
 }
+
+
+.sponsors-list {
+  padding-bottom:20px;
+}
+.sponsor {
+  margin:10px;
+}
+.sponsor img {
+  max-width:150px;
+  max-height:50px;
+}
+@media only screen and (min-width: 768px) {
+  .sponsors-list {
+    padding-bottom:30px;
+  }
+  .sponsor img {
+    max-width:220px;
+    max-height:80px;
+  }
+}
+
 /* --- Post preview --- */
 
 .post-preview {

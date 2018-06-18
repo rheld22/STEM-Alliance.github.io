@@ -1,0 +1,15 @@
+
+{% if page.add-sponsors or page.add-sponsors-footer %}
+<div class="sponsors-list">
+    <h3 class="text-center">Supported By</h3>
+    <ul class="list-inline text-center" >
+        {% for sponsor in site.sponsors %}
+        <li class="sponsor">
+            <a href="{{ sponsor.url }}" title="{{ sponsor.name }}">
+                <img class="sponsor-img" src="{{ sponsor.image }}">
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}

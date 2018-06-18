@@ -20,7 +20,7 @@ use-site-title: true
 - The ShepHerd - Scouting App [![Build Status](http://jenkins.poppeseed.com/buildStatus/icon?job=theherdscouting/default)](http://jenkins.poppeseed.com/job/theherdscouting/job/default/)
 - AutoPilot and AutoTune - Path Planning and PID Tuning [![Build Status](http://jenkins.poppeseed.com/buildStatus/icon?job=autopilot/default)](http://jenkins.poppeseed.com/job/autopilot/job/default/)
 
-# Technical Binders
+# Other Team Technical Binders
 
 |      | Youtube | 254  | 33   | 2767 | 971  |
 |------|---------|------|------|------|------|

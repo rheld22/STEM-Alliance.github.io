@@ -1,0 +1,17 @@
+
+{% if page.add-teams %}
+<ul class="list-inline text-center footer-links" >
+   {% for team in site.teams %}
+   <li>
+      <a href="{{ team.url }}" title="{{ team.name }}" style="color:{{ team.color }};">
+         <div class="fa-stack fa-lg" aria-hidden="true" style="font-size:60px">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <img class="fa fa-stack-1x fa-inverse" src="{{ team.image }}">
+         </div>
+         <div>{{ team.number }}</div>
+         <div>{{ team.name }}</div>
+      </a>
+   </li>
+   {% endfor %}
+</ul>
+{% endif %}
