@@ -8,7 +8,7 @@ use-site-title: true
  - [Windchill](https://academic.ptc.com/Windchill/app/#ptc1/project/listFiles?ContainerOid=OR%3Awt.projmgmt.admin.Project2%3A42667007&folderNavigatorParameter=true&oid=OR%3Awt.folder.Cabinet%3A42667042&u8=1)
 
 # Motors
- - [JVN's Motor Design Calculator](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21712&parId=2D88298C4282E29A!21709&app=Excel) - Also on [CD]     (https://www.chiefdelphi.com/media/papers/3188?langid=2) - Motor speed/power excel calculator
+ - [JVN's Motor Design Calculator](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21712&parId=2D88298C4282E29A!21709&app=Excel) - Also on [Chief Delphi}(https://www.chiefdelphi.com/media/papers/3188?langid=2) - Motor speed/power excel calculator
  - [Vex Motor Testing Results](http://motors.vex.com/) - Motor power/stall information & graphs
 
 # Gearing & Forces
