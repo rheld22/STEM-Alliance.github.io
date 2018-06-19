@@ -848,3 +848,8 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+hr.small {
+  margin: -5px auto;
+  border-width: 2px; 
+}
