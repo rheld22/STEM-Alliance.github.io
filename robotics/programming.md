@@ -3,6 +3,8 @@ title: Programming
 use-site-title: true
 ---
 
+### [PID Tuning](/robotics/pid)
+
 # STEM Alliance Code Repositories
  - Public Repos
     - [WF Robotics, 4818 The Herd](https://github.com/WFRobotics) - All shared public repos for WF Robotics

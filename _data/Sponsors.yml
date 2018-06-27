@@ -1,0 +1,28 @@
+
+- name: Greater Fargo/Moorhead Economic Development Corporation
+  image: /logos/gfmedc.png
+  url: http://gfmedc.com/
+- name: John Deere
+  image: /logos/johndeere.png
+  url: http://deere.com/
+- name: KJOS Investments
+  image: /logos/kjos.png
+  url: http://www.kjosinvestments.com/
+- name: Microsoft
+  image: /logos/microsoft.png
+  url: https://microsoft.com/
+- name: Appareo
+  image: /logos/appareo.png
+  url: https://appareo.com/
+- name: Classic Industries
+  image: /logos/classicindustries.png
+  url: http://alumadeck.com/
+- name: Bobcat
+  image: /logos/bobcat.svg
+  url: http://bobcat.com/
+- name: Fargo Automation
+  image: /logos/fargoautomation.png
+  url: https://fargoautomation.com
+- name: McNeilus Steel
+  image: /logos/mcneilus.png
+  url: https://mcneilus.com/
