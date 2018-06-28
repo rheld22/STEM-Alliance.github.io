@@ -3,11 +3,9 @@ title: Robot Design Process
 use-site-title: true
 ---
 
-[![EDP](imgs/edp_s.png "EDP")](imgs/edp.png "EDP")
+<!-- [![EDP](imgs/edp_s.png "EDP")](imgs/edp.png "EDP") -->
 
-### Example Process for Subsystem Design of a Drivetrain
-
-Processes are meant to be adapted.
+Processes are just recommendations. Adapt as needed.
 
 <style>
 * {
@@ -15,7 +13,6 @@ Processes are meant to be adapted.
 }
 
 .wrapper {
-  margin: 5em auto;
   max-width: 1000px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
 }
@@ -41,41 +38,38 @@ Processes are meant to be adapted.
     width: 100%;
   }
 }
-.card:hover .card__inner {
+.card:hover .card__header {
   background-color: #1abc9c;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
-.card__inner {
+.card__header {
   width: 100%;
   padding: 30px;
   position: relative;
   cursor: pointer;
   background-color: #949fb0;
   color: #eceef1;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  font-size: 1.25em;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
-.card__inner:after {
+.card__header:after {
   transition: all 0.3s ease-in-out;
 }
-.card__inner .fa {
+.card__header .fa {
   width: 100%;
   margin-top: .25em;
 }
 .card__expander {
   transition: all 0.2s ease-in-out;
-  background-color: #333a45;
+  background-color: #ddd;
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
-  color: #eceef1;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .card__expander .fa {
   font-size: 0.75em;
@@ -87,7 +81,7 @@ Processes are meant to be adapted.
 .card__expander .fa:hover {
   opacity: 0.9;
 }
-.card.is-collapsed .card__inner:after {
+.card.is-collapsed .card__header:after {
   content: "";
   opacity: 0;
 }
@@ -98,10 +92,10 @@ Processes are meant to be adapted.
   margin-top: 0;
   opacity: 0;
 }
-.card.is-expanded .card__inner {
+.card.is-expanded .card__header {
   background-color: #1abc9c;
 }
-.card.is-expanded .card__inner:after {
+.card.is-expanded .card__header:after {
   content: "";
   opacity: 1;
   display: block;
@@ -114,7 +108,7 @@ Processes are meant to be adapted.
   border-right: 15px solid transparent;
   border-bottom: 15px solid #333a45;
 }
-.card.is-expanded .card__inner .fa:before {
+.card.is-expanded .card__header .fa:before {
   content: "\f115";
 }
 .card.is-expanded .card__expander {
@@ -124,15 +118,15 @@ Processes are meant to be adapted.
   margin-top: 30px;
   opacity: 1;
 }
-.card.is-expanded:hover .card__inner {
+.card.is-expanded:hover .card__header {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.card.is-inactive .card__inner {
-  pointer-events: none;
+.card.is-inactive .card__header {
+  
   opacity: 0.5;
 }
-.card.is-inactive:hover .card__inner {
+.card.is-inactive:hover .card__header {
   background-color: #949fb0;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -171,37 +165,13 @@ Processes are meant to be adapted.
 </style>
 
 <div class="wrapper">
-   <div class="cards">
-      <div class="card is-collapsed">
-         <div class="card__inner js-expander">
-            <span>1. Define the Problem</span>
-         </div>
-         <div class="card__expander">
-            <ul>
-               <li>Questions
-                  <ul>
-                     <li>What is the problem?</li>
-                     <li>Why is it a problem?</li>
-                  </ul>
-               </li>
-               <li>Actions
-                  <ul>
-                     <li>Our existing differential tank drivetrain does not survive the rigors of multiple competition events</li>
-                     <li>Instead of spending time improving other portions of the robot, we instead spend too much time making sure the drivetrain is 100% working</li>
-                  </ul>
-               </li>
-               <li>Outcome
-                  <ul>
-                     <li>We need a robust, reliable, yet easily servicable differential tank drive train</li>
-                  </ul>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</div>
+<div class="cards">
 
-## 1. Define the Problem
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+1. Define the Problem
+</div>
+<div markdown="1" class="card__expander">
    - Questions
       - What is the problem?
       - Why is it a problem?
@@ -210,8 +180,14 @@ Processes are meant to be adapted.
       - Instead of spending time improving other portions of the robot, we instead spend too much time making sure the drivetrain is 100% working
    - Outcome
       - We need a robust, reliable, yet easily servicable differential tank drive train
+</div>
+</div>
 
-## 2. Research Requirements and Constraints
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+2. Research Requirements
+</div>
+<div markdown="1" class="card__expander">
    - Questions:
       - How have others solved similar problems?
          - Other robot designs
@@ -240,7 +216,14 @@ Processes are meant to be adapted.
             - Support for various wheel setups (omni/traction, 6 vs 8, etc) and various transmissions (2 vs 3 CIM, etc)
       - These could be rewritten to rank them in importance, however best fits the deisgn goals. 1-5, Needs vs Wants, etc.
 
-## 3. Develop Concepts
+</div>
+</div>
+
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+3. Develop Concepts
+</div>
+<div markdown="1" class="card__expander">
    - Questions:
       - How will the solution meet the requirements and constraints?
          - From lots of ideas come a few great ones
@@ -265,19 +248,60 @@ Processes are meant to be adapted.
    - Outcome:
       - Sets of well-defined concept drawings with dimensions
          - For WCD, this could be 2-3 designs that target specific differences, perhaps in tensioning systems, wheel layouts, etc.
+</div>
+</div>
 
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+4. Prototype Concepts
+</div>
+<div markdown="1" class="card__expander">
+   - Questions
+      - How does each concept solution function in the real world?
+      - How can the designs be refined to function better?
+   
+   - Actions
+</div>
+</div>
 
-## 4. Prototype Concepts
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+5. Decision Analysis
+</div>
+<div markdown="1" class="card__expander">
 
-## 5. Decision Analysis
+</div>
+</div>
 
-## 6. Refine Design
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+6. Refine Design
+</div>
+<div markdown="1" class="card__expander">
 
-## 7. Implement Final Design
+</div>
+</div>
 
-## 8. Test and Analyze
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+7. Implement Final Design
+</div>
+<div markdown="1" class="card__expander">
 
+</div>
+</div>
 
+<div class="card is-collapsed">
+<div class="card__header js-expander">
+8. Test and Analyze
+</div>
+<div markdown="1" class="card__expander">
+
+</div>
+</div>
+
+</div>
+</div>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
@@ -289,18 +313,12 @@ $cell.find('.js-expander').click(function() {
   var $thisCell = $(this).closest('.card');
 
   if ($thisCell.hasClass('is-collapsed')) {
+    $thisCell.removeClass('is-inactive');
     $cell.not($thisCell).removeClass('is-expanded').addClass('is-collapsed').addClass('is-inactive');
     $thisCell.removeClass('is-collapsed').addClass('is-expanded');
-    
-    if ($cell.not($thisCell).hasClass('is-inactive')) {
-      //do nothing
-    } else {
-      $cell.not($thisCell).addClass('is-inactive');
-    }
-
   } else {
     $thisCell.removeClass('is-expanded').addClass('is-collapsed');
-    $cell.not($thisCell).removeClass('is-inactive');
+    $cell.removeClass('is-inactive');
   }
 });
 
