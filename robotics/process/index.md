@@ -12,13 +12,7 @@ Processes are just recommendations. Adapt as needed.
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 1000px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
-}
-
 .cards {
-  padding: 15px;
   display: flex;
   flex-flow: row wrap;
 }
@@ -50,7 +44,7 @@ Processes are just recommendations. Adapt as needed.
   cursor: pointer;
   background-color: #949fb0;
   color: #eceef1;
-  font-size: 1.25em;
+  font-size: 1.1em;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -63,14 +57,15 @@ Processes are just recommendations. Adapt as needed.
 }
 .card__expander {
   transition: all 0.2s ease-in-out;
-  background-color: #ddd;
+  background-color: #ccc;
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1em;
+  font-size: 0.9em;
 }
+
 .card__expander .fa {
   font-size: 0.75em;
   position: absolute;
@@ -81,6 +76,13 @@ Processes are just recommendations. Adapt as needed.
 .card__expander .fa:hover {
   opacity: 0.9;
 }
+.card__expander ul {
+    padding: 10px 20px;
+}
+.card__expander  li {
+    margin: 0px 5px;
+}
+
 .card.is-collapsed .card__header:after {
   content: "";
   opacity: 0;
@@ -164,7 +166,6 @@ Processes are just recommendations. Adapt as needed.
 }
 </style>
 
-<div class="wrapper">
 <div class="cards">
 
 <div class="card is-collapsed">
@@ -300,7 +301,6 @@ Processes are just recommendations. Adapt as needed.
 </div>
 </div>
 
-</div>
 </div>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
