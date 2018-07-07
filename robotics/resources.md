@@ -17,7 +17,7 @@ use-site-title: true
 - [Engineering Design for FRC](http://people.clarkson.edu/~jcarroll/FIRST/Engineering_Design_Process_in_Competition_Robotics_-_PAPER.20091204.pdf) - by JVN from 148 Robowranglers
 
 # Custom Tools
-- The ShepHerd - Scouting App [![Build Status](http://jenkins.poppeseed.com/buildStatus/icon?job=theherdscouting/default)](http://jenkins.poppeseed.com/job/theherdscouting/job/default/)
+- The ShepHerd - Scouting App [![Build status](https://ci.appveyor.com/api/projects/status/6ey7i928gu4gjnhm?svg=true)](https://ci.appveyor.com/project/Poppeseed/theherdscouting)
 - AutoPilot and AutoTune - Path Planning and PID Tuning [![Build Status](http://jenkins.poppeseed.com/buildStatus/icon?job=autopilot/default)](http://jenkins.poppeseed.com/job/autopilot/job/default/)
 
 # Other Team Technical Binders
