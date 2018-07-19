@@ -22,6 +22,7 @@ use-site-title: true
     - eclipse plugin: [http://first.wpi.edu/FRC/roborio/release/eclipse/](http://first.wpi.edu/FRC/roborio/release/eclipse/)
     - [FRC Update Suite](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599671-installing-the-frc-update-suite-all-languages)
  - [FRC Programming Done Right](http://frc-pdr.readthedocs.io/en/latest/) - Lots of resources for various programming aspects
+ - [Electrical Guide](https://docs.google.com/document/d/1DWktsIyFx9LDg2FKNm5Rkt2RC0K3OhBKp4SL9KYaHAs/edit#) - Electrical Guide from Spectrum 3847
  
 # Talon SRX
  - [Phoenix Documentation](https://github.com/CrossTheRoadElec/Phoenix-Documentation)
