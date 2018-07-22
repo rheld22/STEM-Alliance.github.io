@@ -5,7 +5,6 @@ use-site-title: true
 
 # Links
 - [Shared Documents OneDrive Folder](https://1drv.ms/f/s!AprigkKMKYgtgeAMVV5RuuEyIK5kEQ)
-- [Common Parts we use at the STEM Alliance](https://onedrive.live.com/edit.aspx?cid=2d88298c4282e29a&page=view&resid=2D88298C4282E29A!21710&parId=2D88298C4282E29A!21709&app=Excel)
 - [PID Tuning Training](pid)
 - [FRC Game Manual](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
 - [Chief Delphi](http://www.chiefdelphi.com/) - Web forum for FRC
@@ -30,3 +29,8 @@ use-site-title: true
 | [2015](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2015/GameManual20150407.pdf) | [Youtube](https://www.youtube.com/results?search_query=frc+2015+einstein) | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) |  | [pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) |
 | [2014](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2014/2014-game-manual.pdf) | [Youtube](https://www.youtube.com/results?search_query=frc+2014+einstein) | [254](https://www.team254.com/first/2014/) |  |  | [pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) |
 
+# Common Parts
+<iframe width="800" height="500" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=2D88298C4282E29A%2121710&authkey=%21AOsWN5yxClb8JDo&em=2&ActiveCell='Parts'!A1&Item=Parts&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+
+# JVN Design Calculator
+<iframe width="800" height="550" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=2D88298C4282E29A%2121712&authkey=%21AIwZeArla4xVkCU&em=2&AllowTyping=True&ActiveCell='Custom%201-Speed%20Drive'!C5&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
