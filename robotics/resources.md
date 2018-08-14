@@ -16,7 +16,8 @@ use-site-title: true
 
 # Custom Tools
 - The ShepHerd - Scouting App [![Build status](https://ci.appveyor.com/api/projects/status/6ey7i928gu4gjnhm?svg=true)](https://ci.appveyor.com/project/Poppeseed/theherdscouting)
-- AutoPilot and AutoTune - Path Planning and PID Tuning [![Build Status](http://jenkins.poppeseed.com/buildStatus/icon?job=autopilot/default)](http://jenkins.poppeseed.com/job/autopilot/job/default/)
+- AutoPilot - Path Planning [Artifacts](https://ci.appveyor.com/project/Poppeseed/autopilot/build/artifacts) [![Build status](https://ci.appveyor.com/api/projects/status/iw8nreoe7rw7w3m6?svg=true)](https://ci.appveyor.com/project/Poppeseed/autopilot)
+- AutoTune - PID Tuning [![Build status](https://ci.appveyor.com/api/projects/status/iw8nreoe7rw7w3m6?svg=true)](https://ci.appveyor.com/project/Poppeseed/autopilot) [![Build status](https://ci.appveyor.com/api/projects/status/c89bk8wlv3hb1xrq?svg=true)](https://ci.appveyor.com/project/Poppeseed/autotune)
 
 # Other Team Technical Binders
 
