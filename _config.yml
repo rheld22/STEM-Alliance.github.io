@@ -27,13 +27,13 @@ navbar-links:
   About Us: "aboutus"
   Contact Us: "contactus"
   Posts: "posts"
-  Robotics:
-    - Teams: "robotics/teams"
-    - Design: "robotics/process"
-    - Resources: "robotics/resources"
-    - Mechanical: "robotics/mechanical"
-    - Programming: "robotics/programming"
-    - Business: "robotics/business"
+  Robotics: "robotics"
+    # - Teams: "robotics/teams"
+    # - Design: "robotics/process"
+    # - Resources: "robotics/resources"
+    # - Mechanical: "robotics/mechanical"
+    # - Programming: "robotics/programming"
+    # - Business: "robotics/business"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
