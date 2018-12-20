@@ -120,10 +120,12 @@ add-sponsors: true
 - [FRC Survival Guide from 4468](http://fernbanklinks.com/wp-content/uploads/2017/07/FRCSurvivalGuide.pdf) - HUGE list of links/resources
 - [The Blue Alliance](https://thebluealliance.com/)
 
+<br/>
 
-
-<form method="get" action="http://www.google.com/search" target="_blank">
-    <input id="mysearch2" type="search" placeholder="eg 'team 254' or 'west coast drive'" name="q" style="width:300px"/>
-    <input type="submit" value="Search Chief Delphi" />
-    <input type="checkbox" name="sitesearch" value="chiefdelphi.com" checked />
+<form class="form-inline col-md-12" role="search" method="get" action="http://www.google.com/search" target="_blank">
+   <div class="input-group mb-3">
+      <input id="mysearch2" type="search" placeholder="'team 254' or 'west coast drive'" name="q" class="form-control">
+      <button class="btn btn-info" type="submit"><i class="fa fa-search"></i>  Search ChiefDelphi.com</button>
+      <input type="checkbox" name="sitesearch" value="chiefdelphi.com" checked style="visibility: hidden;"/>
+   </div>
 </form>
