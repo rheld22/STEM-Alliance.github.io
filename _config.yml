@@ -25,9 +25,8 @@ description: STEM Alliance of Fargo Moorhead
 # List of links in the navigation bar
 navbar-links:
   About Us: "aboutus"
-  Contact Us: "contactus"
   Posts: "posts"
-  Robotics: "robotics"
+  Robots: "robotics"
     # - Teams: "robotics/teams"
     # - Design: "robotics/process"
     # - Resources: "robotics/resources"
@@ -180,6 +179,7 @@ defaults:
       add-sponsors: false
       add-sponsors-footer: false
       show-avatar: true
+      add-nav-sidebar: true
 
 # Use tags index page and make tags on each post clickable
 link-tags: true

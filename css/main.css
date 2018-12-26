@@ -873,3 +873,24 @@ hr.small {
 .team-school {
   font-size:14px;
 }
+
+.sticky-top {
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+}
+
+nav[data-toggle='toc'] {
+  margin-top: 0px;
+}
+
+/* small screens */
+@media (max-width: 999px) {
+  /* override the Affix plugin so that the navigation isn't sticky */
+  nav.affix[data-toggle='toc'] {
+    position: static;
+  }
+
+  nav[data-toggle='toc'] {
+    display: none !important;
+  }
+}
