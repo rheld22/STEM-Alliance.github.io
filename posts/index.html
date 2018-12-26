@@ -2,11 +2,12 @@
 layout: page
 title: Posts
 use-site-title: true
+add-nav-sidebar: false
 ---
 
 <div class="posts-list">
    {% for post in paginator.posts %}
-   <ar00t0icle class="post-preview">
+   <article class="post-preview">
      {% if post.desturl %}
      <a href="{{ post.desturl }}">
      {% else %}
