@@ -12,6 +12,8 @@ add-nav-sidebar: false
   - [Software Design](frc#software-design)
   - [Mechanical Design](frc#mechanical-design)
   - [Business Resources](frc#business-resources)
+  - [Previous Seasons](frc#previous-seasons)
+  - [Useful Links](frc#useful-links)
 
 <br/>
 

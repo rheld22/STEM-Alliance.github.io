@@ -4,32 +4,6 @@ use-site-title: true
 add-sponsors: true
 add-nav-sidebar: true
 ---
-<!--
-- [General Design](#general-design)
-- [Mechanical Design](#mechanical-design)
-  - [PTC Creo](#ptc-creo)
-  - [Motors](#motors)
-  - [Gearing & Forces](#gearing--forces)
-  - [Belts/Chain](#beltschain)
-  - [Drivetrains](#drivetrains)
-  - [Pneumatics](#pneumatics)
-  - [Useful Threads](#useful-threads)
-- [Software Design](#software-design)
-  - [STEM Alliance Code Repositories](#stem-alliance-code-repositories)
-  - [General Resources](#general-resources)
-  - [Talon SRX Information](#talon-srx-information)
-  - [Control Theory / PID Tuning](#control-theory--pid-tuning)
-- [Business Resources](#business-resources)
-  - [Fundraising](#fundraising)
-  - [Branding](#branding)
-- [FRC Team Resources](#frc-team-resources)
-  - [Code Repositories](#code-repositories)
-  - [Game Seasons](#game-seasons)
-- [Useful Links](#useful-links)
-
--->
-
-[Additional Resources](/robotics/resources)
 
 # General Design
 
@@ -124,7 +98,18 @@ add-nav-sidebar: true
 
 - [254 Brand Guide](https://www.team254.com/resources/identity/)
 
-# FRC Team Resources
+# Previous Seasons
+
+## Game Seasons and Popular Designs
+
+| Manual | Objective |    |    |    |    |
+|:------:|:---------:|:--:|:--:|:--:|:--:|
+| [2018 POWER Up](https://firstfrc.blob.core.windows.net/frc2018/Manual/2018FRCGameSeasonManual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2018+einstein) | Elevator/Lifting<br/>Milk Crates<br/>Climbing | [254](https://media.team254.com/2018/07/8fda07af-2018-Techbinder.pdf)<br/>[Blog](https://www.team254.com/category/frc/2018-frc-build-season-frc/?order=asc) | [2767](https://www.chiefdelphi.com/media/papers/download/5481) |  | [1114](http://www.simbotics.org/files/games/robots/first/2018-board.pdf) |
+| [2017 Steamworks](https://firstfrc.blob.core.windows.net/frc2017/Manual/2017FRCGameSeasonManual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2017+einstein) | Wiffle Balls<br/>Floor Pickup<br/>Climbing | [254](https://media.team254.com/2017/09/964207d8-technicalBinder2017.pdf)<br/>[Blog](https://www.team254.com/category/frc/2017-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/2017%20Design%20Binder.pdf) | 971<br/>[pt 1](http://frc971.org/files/2017-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2017-ControlsDocumentation-971.pdf) |  |
+| [2016 Stronghold](https://firstfrc.blob.core.windows.net/frc2016manuals/GameManual/FRC-2016-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2016+einstein) | Dodgeballs<br/>Obstacles<br/>Climbing | [254](https://media.team254.com/2016/05/97d107e6-technicalBinder2016.pdf)<br/>[Blog](https://www.team254.com/category/frc/2016-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/Design%20Binder%202016.pdf) | [971](http://frc971.org/files/2016-TechnicalDocumentation-971.pdf) | [1114](http://www.simbotics.org/files/games/robots/first/2016-board.pdf) |
+| [2015 Recycle Rush](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2015/GameManual20150407.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2015+einstein) | Lifting/Stacking<br/>Large Bins | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf)<br/>[Blog](https://www.team254.com/category/frc/2015-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) | 971<br/>[pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) | 1114<br/>[pt 1](http://www.simbotics.org/files/games/robots/first/2015-engineering-notebook.pdf), [pt 2](http://www.simbotics.org/files/games/robots/first/2015-board.pdf) |
+| [2014 Aerial Assist](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2014/2014-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2014+einstein) | Large Exercise Balls<br/>Catapults | [254](https://www.team254.com/first/2014/)<br/>[Blog](https://www.team254.com/category/frc/2014/?order=asc) |  | 971<br/>[pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) | [1114](http://www.simbotics.org/files/games/robots/first/2014-board.pdf) |
+| [2013 Ultimate Ascent](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2013/2013-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2013+einstein) | Frisbees<br/>Climbing | [254](https://www.team254.com/first/2013/)<br/>[Blog](https://www.team254.com/category/frc/2013/?order=asc) |  |  | 1114<br/>[pt 1](http://www.simbotics.org/files/games/robots/first/2013-engineering-notebook.pdf), [pt 2](http://www.simbotics.org/files/games/robots/first/2013-board.pdf) |
 
 ## Code Repositories
 
@@ -135,17 +120,6 @@ add-nav-sidebar: true
 - [1678 Citrus Circuits](https://github.com/frc1678)
 - [2471 Mean Machine](https://github.com/TeamMeanMachine)
 - [2767 Strykeforce](https://github.com/strykeforce)
-
-## Game Seasons
-
-| Manual | Objective |    |    |    |    |
-|:------:|:---------:|:--:|:--:|:--:|:--:|
-| [2018 POWER Up](https://firstfrc.blob.core.windows.net/frc2018/Manual/2018FRCGameSeasonManual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2018+einstein) | Elevator/Lifting<br/>Milk Crates<br/>Climbing | [254](https://media.team254.com/2018/07/8fda07af-2018-Techbinder.pdf)<br/>[Blog](https://www.team254.com/category/frc/2018-frc-build-season-frc/?order=asc) | [2767](https://www.chiefdelphi.com/media/papers/download/5481) |  | [1114](http://www.simbotics.org/files/games/robots/first/2018-board.pdf) |
-| [2017 Steamworks](https://firstfrc.blob.core.windows.net/frc2017/Manual/2017FRCGameSeasonManual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2017+einstein) | Wiffle Balls<br/>Floor Pickup<br/>Climbing | [254](https://media.team254.com/2017/09/964207d8-technicalBinder2017.pdf)<br/>[Blog](https://www.team254.com/category/frc/2017-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/2017%20Design%20Binder.pdf) | 971<br/>[pt 1](http://frc971.org/files/2017-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2017-ControlsDocumentation-971.pdf) |  |
-| [2016 Stronghold](https://firstfrc.blob.core.windows.net/frc2016manuals/GameManual/FRC-2016-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2016+einstein) | Dodgeballs<br/>Obstacles<br/>Climbing | [254](https://media.team254.com/2016/05/97d107e6-technicalBinder2016.pdf)<br/>[Blog](https://www.team254.com/category/frc/2016-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2018/01/Design%20Binder%202016.pdf) | [971](http://frc971.org/files/2016-TechnicalDocumentation-971.pdf) | [1114](http://www.simbotics.org/files/games/robots/first/2016-board.pdf) |
-| [2015 Recycle Rush](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2015/GameManual20150407.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2015+einstein) | Lifting/Stacking<br/>Large Bins | [254](https://media.team254.com/resources/Team_254_Tech_Binder_2015.pdf)<br/>[Blog](https://www.team254.com/category/frc/2015-frc-build-season-frc/?order=asc) | [33](http://www.killerbees33.com/wp-content/uploads/2015/11/Design-Binder-2015.pdf) | 971<br/>[pt 1](http://frc971.org/files/2015-TechnicalDocumentation-971.pdf), [pt 2](http://frc971.org/files/2015-ControlsDocumentation-971.pdf) | 1114<br/>[pt 1](http://www.simbotics.org/files/games/robots/first/2015-engineering-notebook.pdf), [pt 2](http://www.simbotics.org/files/games/robots/first/2015-board.pdf) |
-| [2014 Aerial Assist](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2014/2014-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2014+einstein) | Large Exercise Balls<br/>Catapults | [254](https://www.team254.com/first/2014/)<br/>[Blog](https://www.team254.com/category/frc/2014/?order=asc) |  | 971<br/>[pt 1](http://frc971.org/files/2014-TechnicalDocumentation.pdf), [pt 2](http://frc971.org/files/2014-ControlsDocumentation.pdf) | [1114](http://www.simbotics.org/files/games/robots/first/2014-board.pdf) |
-| [2013 Ultimate Ascent](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/game-and-season-info/archive/2013/2013-game-manual.pdf)<br/>[Einstein Matches](https://www.youtube.com/results?search_query=frc+2013+einstein) | Frisbees<br/>Climbing | [254](https://www.team254.com/first/2013/)<br/>[Blog](https://www.team254.com/category/frc/2013/?order=asc) |  |  | 1114<br/>[pt 1](http://www.simbotics.org/files/games/robots/first/2013-engineering-notebook.pdf), [pt 2](http://www.simbotics.org/files/games/robots/first/2013-board.pdf) |
 
 # Useful Links
 
