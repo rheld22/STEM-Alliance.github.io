@@ -2,33 +2,39 @@
 layout: base
 ---
 
-{% include header.html type="page" %}
 
-{% include teams.html %}
+<div id="main-page-body">  
+  {% include header.html type="page" %}
 
-<div class="container" role="main">
-  <div class="row">
+  {% include teams.html %}
+
+  <div class="container">
     {% if page.add-nav-sidebar %}
-      <div class="scroll-sidebar">
-        <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
-      </div>
+    <div class="scroll-sidebar">
+      <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+    </div>
     {% endif %}
-    <div class="col-lg-9 col-md-9 col-lg-offset-2 col-md-offset-2">
-        <!-- main content area -->
-        <div class="main-content-area">
-          {{ content }}
-        </div>
-
-	    {% if page.comments %}
-        <div class="disqus-comments">
-	        {% include disqus.html %}
-        </div>
-	        {% include fb-comment.html %}
-	    {% endif %}
+    <div class="col-lg-9 col-md-9 col-lg-offset-2 col-md-offset-2" >
+      {% if page.add-nav-sidebar %}
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="mobile-nav collapse navbar-collapse"  id="mobile-navbar-collapse" >
+        <nav id="mobile-toc" data-toggle="toc" ></nav>
+      </div>
+      {% endif %}
+      {{ content }}
     </div>
   </div>
-  
-  {% if page.add-sponsors %}
-    {% include sponsors.html %}
-  {% endif %}
 </div>
+
+{% if page.comments %}
+  <div class="disqus-comments">{% include disqus.html %}</div>
+  {% include fb-comment.html %}
+{% endif %}
+{% if page.add-sponsors %}
+  {% include sponsors.html %}
+{% endif %}
