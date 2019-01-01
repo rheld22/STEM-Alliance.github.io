@@ -14,6 +14,7 @@ add-nav-sidebar: false
   - [Business Resources](frc#business-resources)
   - [Previous Seasons](frc#previous-seasons)
   - [Useful Links](frc#useful-links)
+  - [CAD & Code Releases](releases)
 
 <br/>
 
