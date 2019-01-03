@@ -1,6 +1,7 @@
 ---
 title: Robot Design Process
 use-site-title: true
+add-nav-sidebar: false
 ---
 
 <!-- [![EDP](imgs/edp_s.png "EDP")](imgs/edp.png "EDP") -->

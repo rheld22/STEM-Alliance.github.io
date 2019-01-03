@@ -6,9 +6,11 @@ add-nav-sidebar: false
 
 # FIRST Robotics Competition
 
+[2019 Signup Information](/signup)
+
 - [FRC Sponsored Teams](teams)
-- [Useful Team Resources](frc)
-  - [General Design](frc#software-design)
+- [Links](frc)
+  - [General Design](frc#general-design)
   - [Software Design](frc#software-design)
   - [Mechanical Design](frc#mechanical-design)
   - [Business Resources](frc#business-resources)
