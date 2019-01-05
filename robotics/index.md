@@ -27,6 +27,7 @@ add-nav-sidebar: false
 
 # FRC 2019 Links
 
+- Password: $Robots&in#SPACE!!
 - [2019 Game Manual](https://firstfrc.blob.core.windows.net/frc2019/Manual/2019FRCGameSeasonManual.pdf)
-- [Kickoff Rules GUide](https://stemalliancefm.sharepoint.com/:b:/g/EVkTjMiiwHhMuGZ6c77CmxoBsjaNZ5oup2yseDhsR0hnnA?e=Q6LiTQ)
+- [Kickoff Rules Guide](https://stemalliancefm.sharepoint.com/:b:/g/EVkTjMiiwHhMuGZ6c77CmxoBsjaNZ5oup2yseDhsR0hnnA?e=Q6LiTQ)
 - [Strategic Planning Guide](https://stemalliancefm.sharepoint.com/:b:/g/EUuqRlxPYllCicEKXl6SSMQBNZAjo9WNQO9PvL-gXq300A?e=asyCiL)
