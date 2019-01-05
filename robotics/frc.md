@@ -26,6 +26,7 @@ add-nav-sidebar: true
 
 - [Spartan's Design Presentation](https://youtu.be/VNfFn-gcfFI?t=479)
 - [WCP Gearing Information](http://www.wcproducts.net/how-to-gears/)
+- [VersaPlanetary Configurator](https://schreiaj.github.io/versa-config/)
 
 ## Belts/Chain
 
