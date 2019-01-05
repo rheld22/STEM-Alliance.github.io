@@ -24,3 +24,9 @@ add-nav-sidebar: false
 - [OneDrive](https://stemalliancefm.sharepoint.com/Shared%20Documents/Public)
 - [Common Parts](https://stemalliancefm.sharepoint.com/:x:/g/Ea5EOF0VX_JAmCGOtX4BvDoBYghXrjvr5O3XPfbIlR7H2A?e=zqJ8iP)
 - [JVN Design Calculator](https://stemalliancefm.sharepoint.com/:x:/g/EewyzJDrZIxDsmBORHm_m90Bo28muJ1jN1SF8FWgpJioUQ?e=IpNBJd)
+
+# FRC 2019 Links
+
+- [2019 Game Manual](https://firstfrc.blob.core.windows.net/frc2019/Manual/2019FRCGameSeasonManual.pdf)
+- [Kickoff Rules GUide](https://stemalliancefm.sharepoint.com/:b:/g/EVkTjMiiwHhMuGZ6c77CmxoBsjaNZ5oup2yseDhsR0hnnA?e=Q6LiTQ)
+- [Strategic Planning Guide](https://stemalliancefm.sharepoint.com/:b:/g/EUuqRlxPYllCicEKXl6SSMQBNZAjo9WNQO9PvL-gXq300A?e=asyCiL)
