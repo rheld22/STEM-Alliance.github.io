@@ -27,6 +27,7 @@ add-nav-sidebar: false
 
 # FRC 2019 Links
 
-- [2019 Manuals And Drawings](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
-- [2019 Game Manual PDF](https://firstfrc.blob.core.windows.net/frc2019/Manual/2019FRCGameSeasonManual.pdf)
+- [Manuals And Drawings](https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system)
+- [Field Drawings And Measurements](https://www.firstinspires.org/robotics/frc/playing-field#FIRSTDrawings)
+- [Game Manual PDF](https://firstfrc.blob.core.windows.net/frc2019/Manual/2019FRCGameSeasonManual.pdf)
 - Password: $Robots&in#SPACE!!
