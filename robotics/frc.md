@@ -79,7 +79,7 @@ add-nav-sidebar: true
 
 ## Talon SRX Information
 
-- [Phoenix Documentation](https://github.com/CrossTheRoadElec/Phoenix-Documentation)
+- [SRX Documentation](https://phoenix-documentation.readthedocs.io/en/latest/index.html)
 - [Software Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Victor%20SPX%20-%20Software%20Reference%20Manual.pdf)
 - [Motion Profile Reference Manual](https://github.com/CrossTheRoadElec/Phoenix-Documentation/raw/master/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
 - [Java Code Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages)
