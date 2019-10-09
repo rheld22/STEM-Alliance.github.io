@@ -29,6 +29,4 @@
 - name: Weisgram Metal Fab
   image: /logos/weisgram.png
   url: http://www.weisgram.com/
-- name: Sherwin Williams
-  image: /logos/sherwinwilliams.png
-  url: https://www.sherwin-williams.com/
+
