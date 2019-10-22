@@ -3,9 +3,9 @@ use-site-title: true
 add-nav-sidebar: false
 ---
 
-![](/img/FIRST2020.jpg)
+![](/img/FRC2020-small.png)
 
-![](/img/frc2020.png) ![](/img/frc.png)
+![](/img/2020FIRST.png) ![](/img/frc.png)
 
 # FRC Registration
 
