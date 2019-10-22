@@ -11,6 +11,6 @@ The STEM Alliance of Fargo Moorhead is the collaborative efforts of the Fargo, W
 
 <a target="_blank" href="https://stem-alliance-of-fargo---moorhead.square.site/" class="btn btn-block btn-lg btn-success active">Donate to the STEM Alliance Center</a>
 
-[![](/img/2019first.png)](signup) [![](/img/frc.png)](signup)
+[![](/img/2020FIRST.png)](signup) [![](/img/frc.png)](signup)
 
-[2019 FRC Signup](signup)
+[2020 FRC Signup](signup)
