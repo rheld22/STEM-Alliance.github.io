@@ -3,7 +3,7 @@ use-site-title: true
 add-nav-sidebar: false
 ---
 
-![](/img/FIRST2020.png)
+![](/img/FIRST2020.jpg)
 
 ![](/img/frc2020.png) ![](/img/frc.png)
 
